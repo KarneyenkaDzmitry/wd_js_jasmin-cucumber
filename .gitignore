@@ -39,6 +39,7 @@ build/Release
 node_modules/
 jspm_packages/
 resources/
+chromedriver.exe
 
 # TypeScript v1 declaration files
 typings/
