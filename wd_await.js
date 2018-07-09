@@ -1,7 +1,7 @@
 'use strict';
 const { Builder, By, Key, until } = require('selenium-webdriver');
 
-(async function example() {
+(async function test() {
     let driver = await new Builder().forBrowser('chrome').build();
     await driver.manage().window().maximize();
     try {
